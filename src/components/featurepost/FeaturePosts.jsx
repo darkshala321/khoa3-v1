@@ -17,7 +17,7 @@ console.log(limitedPosts);
       <h2 className="feature-posts-heading">Bài nổi bật</h2>
       <div className="feature-posts-grid">
         {limitedPosts.map((article, index) => 
-          <FeaturePostItem key={article._id} number={index + 1} author={article.author} />
+          <FeaturePostItem key={article._id} number={index + 1} article={article} />
         )}
       </div>
     </div>

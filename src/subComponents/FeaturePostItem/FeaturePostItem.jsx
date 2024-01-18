@@ -1,8 +1,11 @@
-export function FeaturePostItem ({number,author}){
 
-    
+import { Link } from 'react-router-dom';
+import moment from 'moment';
+
+
+export function FeaturePostItem ({number,article}){
+  const { _id, title, image, createDate, author } = article;
   return <div className="feature-post-item">
-    
     <div className="feature-post-number">#{number}</div>
     <img src={author.profileImage ? author.profileImage : "default"} alt={author.username} className="feature-post-author-image" />
     <img src={image} alt={title} className="feature-post-image" />
