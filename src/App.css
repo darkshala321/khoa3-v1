@@ -1,0 +1,12 @@
+.feature-post-title,
+.news-title,
+.daily-post-title {
+    text-decoration: none;
+    color: blue;
+}
+
+.feature-post-title:hover,
+.news-title:hover,
+.daily-post-title:hover {
+    color: rgb(9, 196, 34);
+}
