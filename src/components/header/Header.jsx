@@ -1,15 +1,18 @@
-import React from 'react'
+import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img src="https://photo2.tinhte.vn/data/avatars/l/2995/2995271.jpg?1700038051" alt="Logo" />
+        <Link to="/">
+          <img src="https://photo2.tinhte.vn/data/avatars/l/2995/2995271.jpg?1700038051" alt="Logo" />
+        </Link>
       </div>
       <nav className="navigation">
-        {/* Thay đường dẫn lại */}
-        <a href="#">Home</a>
+
+        <Link to="/">Home</Link>
         <a href="#">#ly do mua</a>
         <a href="#">#trên tay</a>
         <a href="#">#trải nghiệm</a>
