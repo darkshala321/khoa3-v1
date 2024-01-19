@@ -1,0 +1,51 @@
+.daily-post-container {
+    margin: 20px 0;
+  }
+  
+  .daily-post-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .daily-post-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .daily-post-image {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .daily-post-content {
+    padding: 15px;
+    flex-grow: 1;
+  }
+  
+  .daily-post-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    }
+    
+    .daily-post-excerpt {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+    }
+    
+    .daily-post-author {
+    font-size: 0.75rem;
+    color: #666;
+    text-align: right;
+    margin-top: auto;
+    }
